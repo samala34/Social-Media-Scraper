@@ -1,0 +1,9 @@
+Flask
+flask-cors
+tweepy
+python-dotenv
+sentence-transformers
+torch
+numpy
+dateparser
+pandas
