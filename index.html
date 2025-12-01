@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Scraping</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #f7faff; /* very light blue/white aesthetic */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #1f4e8c;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            height: 50px;
+            width: 300px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            background: #1f74d4;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.25s ease;
+        }
+
+        button:hover {
+            background: #155aa5;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Media Scraping</h1>
+
+    <div class="button-container">
+        <button onclick="window.location.href='http://localhost:8502/'">Linkedin</button>
+        <button onclick="window.location.href='http://localhost:8501/'">Instagram</button>
+        <button onclick="window.location.href='http://localhost:3000/'">Twitter(x)</button>
+    </div>
+</body>
+</html>
